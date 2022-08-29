@@ -198,6 +198,13 @@ body {
   text-align: center;
 }
 
+.LogoMusic {
+  position: absolute;
+  top: 53%;
+  right: 55%;
+  vertical-align: auto;
+}
+
 input {
   width: 100%;
   margin-bottom: 10px;
@@ -240,7 +247,6 @@ input:focus {
   top: 0%;
   right: 45%;
 
-
 }
 
 .btnlogin button{
@@ -259,12 +265,8 @@ input:focus {
 
   position: relative;
   top:  30%;
-
 }
-
 .parrafo p{
-
-
     color:  #ffff;
     font-size: 30px;
 }

@@ -58,7 +58,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 
 .rmessage p{
 
-
   color: #FFFFFF;
 }
 
@@ -89,7 +88,12 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 }
 
 .rmessage a{
-  color: #00ff00;
+  color: #68e1fd;
   text-decoration: none;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.rmessage p{
+  font-family: 'Open Sans', sans-serif;
 
 }
