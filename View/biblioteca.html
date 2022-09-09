@@ -1,29 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="../Model/biblioteca.css" rel="stylesheet" type="text/css">
 	<title>Biblioteca - Music Project</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
 	<link rel="icon" href="logon.png">
-</head>
+	</head>
+
 <body>
-	<header class="header" id="inicio">
-		<img src="../images/MenuMusic.svg">
-	<div class="logo">
-		<img src="../images/logorees.png">
+	<div class="app">
+		<aside class="menu-inicio">
+			<div class="logo">
+				<span class="i-logo"></i>MusicProject!</span>
+				<div class="logoAcompa">
+					<img src="../images/logo120.png" width="100" height="100">
+				</div>
+			</div>
+			<ul class="playlist" id="menuMusic">
+				<li class="playlist"><a hrfe="#" class="playEstudiar" id="cargarEstudiar">Deporte</a>
+				</li>
+				<li class="playlist"><a hrfe="#" class="playDeporte" id="cargarEstudiar">Estudio</a>
+				</li>
+				<li class="playlist"><a hrfe="#" class="playRock" id="cargarEstudiar">Rock</a>
+				</li>
+			</ul>
+		</aside>
+
+		<div class="album" id="album">
+			<div class="user">
+				<a href="#" class="close" id="close"><i class="far fa-times-circle"></i></a>
+				<span class="user-desc"> <i class="fas fa-user"></i>Autenticado </a></span>
+			</div>
+			<div class="animate">
+			</div>
+			<div class="album-descripcion">
+				<div class="album-img">
+				</div>
+				<div class="album-text">
+				<div class="title">
+					<span>Lista de reprodución</span>
+					<h2 id="titlePlayList">Seleccione su lista de reprodución</h2>
+				</div>
+				<div class="descripcion">
+					<p id="playDescripcion">Reproduce tu Musica que mas te guste!</p>
+				</div>
+				<div class="acciones">
+					<input type="file" id="files" name="files[]" multiple />
+
+					<a href="#" class="btn reaccion-inativa" id="reaccion"> <i class="fas fa-heart"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="album-list-music">
+			<ul class="list-music" id="lista-music">
+                    <li class="music">
+                        <a href="#" class="btn play-music"><i class="far fa-play-circle"></i></a>
+                        <h3>Nombre de artista</h3> 
+                        <h3 class="name" id="name">Nombre de musica</h3> 
+                        <h3 class="time">Tiempo</h3>
+                    </li>
+                
+			</ul>
+		</div>
 	</div>
-	<div class =" menu-Inicio">
-		<a href="#Inicio">Inicio</a>
-		<a href="#Biblioteca">Biblioteca</a>
-		<a href="#Perfil">Perfil</a>
 	</div>
-	<main>
-	<div class="contenedor head">
-		<h1>Escucha tu música mientras realizas todo lo que te gusta, Solo dale Play</h1>
-		<img src="../images/ImagMusic.jpg" alt="">
-	</main>
+	<div class="reproducir">
+		<div class="controles" id="controles">
+			<a href="#" class="btn control atras"><i class="fas fa-backward"></i></a>
+                <a href="#" class="btn control play-musica"><i class="far fa-play-circle"></i></a>
+                <a href="#" class="btn control siguiente"><i class="fas fa-forward"></i></a>
+                <a href="#" class="btn control pausa"><i class="far fa-pause-circle"></i></a>
+                <div class="volumen">
+                    <a href="#" class="subir"></a>
+                    <a href="#" class="bajar"></a>
+                </div>
+		</div>
 	</div>
-</header>
+
 </body>
 </html>
