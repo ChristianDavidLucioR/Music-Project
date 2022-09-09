@@ -28,6 +28,7 @@ body{
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
+
 .s-logo{
     color:#08b857;
     font-weight: bold;
@@ -213,7 +214,7 @@ body{
 		align-items: center;
 	}
 	.title h2{
-		font-size: 35px;
+		font-size: 30px;
 	}
 	.reaccion-activa{
 		background: rgb(221, 147, 147);
@@ -283,9 +284,7 @@ body{
 	.control{
 		margin: 5px;
 	}
-	a img{
-		display: none;
-	}
+	
 	/*Para ocultar text movil*/
 @media screen and (max-width: 450px) {
     .album-description{

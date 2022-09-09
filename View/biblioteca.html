@@ -5,8 +5,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Biblioteca - Music Project</title>
-	<link href="../Model/biblioteca.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<link rel="stylesheet" href="../Model/biblioteca.css">
 	<link rel="icon" href="logon.png">
+	
 	</head>
 
 <body>
@@ -19,18 +21,19 @@
 					<img src="../images/logo120.png" width="100" height="100">
 				</div>
 
-			<ul class="playlist" id="menuMusic">
-				<li class="playlist"><a hrfe="#" class="playEstudiar" id="cargarEstudiar">Deporte</a></li>
-				<li class="playlist"><a hrfe="#" class="playDeporte">Estudio</a></li>
-				<li class="playlist"><a hrfe="#" class="playRock">Rock</a></li>
-			</ul>
+				<ul class="playlists" id="menuMusic">
+					<li class="playlist"><a href="#" class="play playEstudiar" id="cargarEstudiar">Estudio</a></li>
+					<li class="playlist" ><a href="#" class="play playRock">Rock</a></li>
+					<li class="playlist"><a href="#" class="play playDeporte">Deporte</a></li>
+					</ul>
 			
 		</aside>
 
 		<div class="album" id="album">
 			<div class="user">
-				<a href="#" class="close" id="close"><i class="far fa-times-circle"></i></a>
-				<span class="user-desc"> <i class="fas fa-user"></i>Autenticado </a></span>
+				<a href="#" class="close" id="close"><i class="fas fa-times-circle"></i></a>
+				<span class="user-desc"><i class="fas fa-user"></i>Autenticado</a></span>
+		
 			</div>
 
 			<div class="animate">
@@ -38,12 +41,13 @@
 
 			<div class="album-description">
 				<div class="album-img">
+					<img id="imgAlbum" src="../images/imgPortada.jpg" width="300" height="150">
 				</div>
 
 				<div class="album-text">
 				<div class="title">
-					<span>Lista de reprodución</span>
-					<h2 id="titlePlayList">Seleccione su lista de reprodución</h2>
+					<span>Lista de reprodución:</span>
+					<h2 id="titlePlaylist">Seleccione su lista de reprodución</h2>
 				</div>
 
 				<div class="description">
@@ -52,22 +56,22 @@
 
 				<div class="acciones">
 					<input type="file" id="files" name="files[]" multiple />
-
-					<a href="#" class="btn reaccion-inativa" id="reaccion"><i class="fas fa-heart"></i></a>
+					
+					<a href="#" class="btn reaccion-inactiva" id="reaccion"><i class="fas fa-heart"></i></a>
 				</div>
-			</div>
+				</div>
 		</div>
 
 		<div class="album-list-music">
 			<ul class="list-music" id="lista-music">
 				
                     <li class="music">
-                        <a href="#" class="btn play-music"><i class="far fa-play-circle"></i></a>
+                        <a href="#" class="btn play-music"><i class="fas fa-play-circle"></i></a>
                         <h3>Nombre de artista</h3> 
                         <h3 class="name" id="name">Nombre de musica</h3> 
                         <h3 class="time">Tiempo</h3>
                     </li>
-                
+					
 			</ul>
 		</div>
 	</div>
@@ -76,7 +80,7 @@
 		<div class="controles" id="controles">
 			
 			<a href="#" class="btn control atras"><i class="fas fa-backward"></i></a>
-                <a href="#" class="btn control play-musica"><i class="far fa-play-circle"></i></a>
+                <a href="#" class="btn control play-musica"><i class="fas fa-play-circle"></i></a>
                 <a href="#" class="btn control siguiente"><i class="fas fa-forward"></i></a>
                 <a href="#" class="btn control pausa i-logoPausa"><i class="far fa-pause-circle"></i></a>
                 <div class="volumen">
@@ -87,5 +91,6 @@
 		</div>
 	</div>
 
+	<script src="../Controller/app.js"></script>
 </body>
 </html>
