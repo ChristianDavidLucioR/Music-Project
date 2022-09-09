@@ -1,11 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-html { width: 100%; height:100%; overflow:hidden; }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Tenali Ramakrishna', sans-serif;
 }
+
 body{
 	align-items: center;
 	justify-content: center;
@@ -17,11 +16,6 @@ body{
 	background-repeat: no-repeat;
 	background: linear-gradient(to right, rgba(2, 2, 2, 0.726) 15%, rgba(8, 8, 8, 0.829)), url(../images/ImagMusic.jpg);
 
-	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
-  	background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
-  	background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
-  	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #670d10 0%,#092756 100%);
-  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
 }
 .i-logo{
     font-size: 30px;
@@ -34,6 +28,20 @@ body{
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
+.s-logo{
+    color:#08b857;
+    font-weight: bold;
+    font-size: 60px;
+}
+.login{
+    margin-top: 25px;
+    width: 25%;
+    text-align: center;
+    width: 25%;
+    border-top: solid 5px rgba(255, 255, 255, 0.425);
+    padding-top: 20px;
+    border-radius: 5px;
+}
 @media screen and (max-width: 450px) {
 	.login{
 		width: 90%;
@@ -44,9 +52,9 @@ body{
 		  width: 70%;
 	  }
 	}
-  .body-input{
-	  width: 100%;
-  }
+	.contenedor-input{
+		width: 100%;
+	}
   .input{
     width: 100%;
     height: 40px;
@@ -59,7 +67,7 @@ body{
     font-weight: bold;
     padding:5px;
 }
-/* 
+
 .btn{
     display: inline-block;
     text-decoration: none;
@@ -77,7 +85,7 @@ body{
     width: 80%;
     margin-top: 20px;
     font-weight: bold;
-} */
+} 
 
 /*Comienza el diseño del contenedor APP*/
 	.app{
@@ -85,7 +93,7 @@ body{
 		width: 100vw;
 		display: flex;
 		font-family: 'Architects Daughter', sans-serif;
-		color: #ffffffb0;
+		color: #ffffffe3;
 	}
 	.album{ /*Cuadro del album*/
 		background: linear-gradient(to right, rgba(2, 2, 2, 0.726) 15%, rgba(8, 8, 8, 0.829)), url(../images/ImagMusic.jpg);
@@ -95,7 +103,7 @@ body{
 		background-attachment: fixed;
 		height: 88vh;
 		width: 80vw;
-		position: fixed;
+		position: relative;
 		right: 0;
 		overflow: scroll;
 	}
@@ -109,17 +117,20 @@ body{
 		width: 100vw;
 		background: rgba(0, 0, 0, 0.178);
 		position: static;
-		border: 3px solid #000000;
+		border: 3px solid #31005285;
 	}
 	.logo{
 		text-align: center;
 		margin-bottom: 20px;
 		margin-top: 10px;
 	}
+	.i-logo2{
+		font-size: 35px;
+	}
 	.play{
 		text-decoration: none;
 		font-size: 20px;
-		color: #ffffffb0;
+		color: #6d6d6db0;
 		text-align: center;
 		display: block;
 		padding: 10px;
@@ -130,10 +141,10 @@ body{
 		background: rgba(90, 89, 89, 0.486);
 	}
 	.playlist{
-		border-top: solid .5px #ffffff4d;
+		border-top: solid .10px #ffffff4d;
 	}
 	.playlists:last-child{
-		border-bottom: solid .5px #ffffff4d;
+		border-bottom: solid .10px #ffffff4d;
 	}
 	/* */
 	.user{
@@ -169,7 +180,7 @@ body{
 	}
 	
 	.close{
-		color: #ffffff88;
+		color: #ffffffef;
 		display: inline-block;
 		margin-left: 10px;
 		font-size: 30px;
