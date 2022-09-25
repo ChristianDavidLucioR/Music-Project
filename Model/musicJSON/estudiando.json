@@ -1,28 +1,32 @@
 [
     {
-        "id":1,
-        "playlist":"estudiar",
-        "artista":"Mozart",
-        "nombre" : "Lacrimosa",
-        "url":"Model/music/estudiar/Mozart-Lacrimosa.mp3",
-        "duracion":200
-    },
-    {
-        "id":2,
-        "playlist":"estudiar",
-        "artista":"Mozart",
-        "nombre" : "Symphony-40",
-        "url":"assets/music/estudiar/Mozart-Symphony-40.mp3",
-        "duracion":448
-    },
-    {
-        "id":3,
-        "playlist":"estudiar",
-        "artista":"Mozart",
-        "nombre" : "RondoAllaTurca",
-        "url":"assets/music/estudiar/Mozart-RondoAllaTurca.mp3",
-        "duracion":211
-    }
-
-
+        "ID de usuario": 1,
+        "identificación": 1,
+        "title": "quidem molestiae enim"
+      },
+      {
+        "ID de usuario": 1,
+        "identificación": 2,
+        "title": "sunt qui excepturi placeat culpa"
+      },
+      {
+        "ID de usuario": 1,
+        "identificación": 3,
+        "título": "omnis laborum odio"
+      },
+      {
+        "ID de usuario": 1,
+        "identificación": 4,
+        "título": "non esse culpa molestiae omnis sed optio"
+      },
+      {
+        "ID de usuario": 1,
+        "identificación": 5,
+        "título": "eaque aut omnis a"
+      },
+      {
+        "ID de usuario": 1,
+        "identificación": 6,
+        "título": "natus impedit quibusdam illo est"
+      }
 ]

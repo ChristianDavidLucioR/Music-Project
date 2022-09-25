@@ -12,6 +12,7 @@
 	</head>
 
 <body>
+
 	<div class="app">
 		<aside class="menu-inicio">
 			<div class="logo">
@@ -32,7 +33,7 @@
 		<div class="album" id="album">
 			<div class="user">
 				<a href="#" class="close" id="close"><i class="fas fa-times-circle"></i></a>
-				<span class="user-desc"><i class="fas fa-user"></i>Autenticado</a></span>
+				<span class="user-desc"><i class="fas fa-user"></i>Usuario</a></span>
 		
 			</div>
 
@@ -64,21 +65,21 @@
 
 		<div class="album-list-music">
 			<ul class="list-music" id="lista-music">
-				
+				<!--
                     <li class="music">
                         <a href="#" class="btn play-music"><i class="fas fa-play-circle"></i></a>
                         <h3>Nombre de artista</h3> 
                         <h3 class="name" id="name">Nombre de musica</h3> 
                         <h3 class="time">Tiempo</h3>
                     </li>
-					
+					-->
 			</ul>
 		</div>
 	</div>
 	</div>
 	<div class="reproducir">
 		<div class="controles" id="controles">
-			
+		
 			<a href="#" class="btn control atras"><i class="fas fa-backward"></i></a>
                 <a href="#" class="btn control play-musica"><i class="fas fa-play-circle"></i></a>
                 <a href="#" class="btn control siguiente"><i class="fas fa-forward"></i></a>
@@ -86,11 +87,18 @@
                 <div class="volumen">
                     <a href="#" class="subir"></a>
                     <a href="#" class="bajar"></a>
-					
+				
                 </div>
 		</div>
 	</div>
 
+	<!--Importamos Base de datos-->
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+	<!--Importamos JavaScript-->
 	<script src="../Controller/app.js"></script>
+
 </body>
 </html>

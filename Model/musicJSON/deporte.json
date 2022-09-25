@@ -1,28 +1,42 @@
 [
     {
-        "id":1,
-        "playlist":"estudiar",
-        "artista":"Mozart",
-        "nombre" : "Lacrimosa",
-        "url":"Model/music/estudiar/Mozart-Lacrimosa.mp3",
-        "duracion":200
-    },
-    {
-        "id":2,
-        "playlist":"estudiar",
-        "artista":"Mozart",
-        "nombre" : "Symphony-40",
-        "url":"assets/music/estudiar/Mozart-Symphony-40.mp3",
-        "duracion":448
-    },
-    {
-        "id":3,
-        "playlist":"estudiar",
-        "artista":"Mozart",
-        "nombre" : "RondoAllaTurca",
-        "url":"assets/music/estudiar/Mozart-RondoAllaTurca.mp3",
-        "duracion":211
-    }
-
-
+        "ID de usuario": 2,
+        "identificación": 15,
+        "título": "ut pariatur rerum ipsum natus repellendus praesentium"
+      },
+      {
+        "ID de usuario": 2,
+        "identificación": 16,
+        "título": "voluptatem aut maxime inventore autem magnam atque repellat"
+      },
+      {
+        "ID de usuario": 2,
+        "identificación": 17,
+        "título": "aut minima voluptatem ut velot"
+      },
+      {
+        "ID de usuario": 2,
+        "identificación": 18,
+        "título": "nesciunt quia et doloremque"
+      },
+      {
+        "ID de usuario": 2,
+        "identificación": 19,
+        "título": "velit pariatur quaerat similique libero omnis quia"
+      },
+      {
+        "ID de usuario": 2,
+        "identificación": 20,
+        "título": "voluptas rerum iure ut enim"
+      },
+      {
+        "ID de usuario": 3,
+        "identificación": 21,
+        "título": "repudiandae voluptatem optio est consequatur rem in temporibus et"
+      },
+      {
+        "ID de usuario": 3,
+        "identificación": 22,
+        "title": "et rem non provident vel ut"
+      }
 ]
