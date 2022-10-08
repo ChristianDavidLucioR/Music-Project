@@ -1,6 +1,3 @@
-import firebase from "firebase/app";
-import "firebase/firestore";
-
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://firebase.google.com/docs/web/learn-more#config-object
 const firebaseConfig = {
@@ -10,7 +7,6 @@ const firebaseConfig = {
     storageBucket: "music-project-22b7b.appspot.com",
     messagingSenderId: "760512600311",
     appId: "1:760512600311:web:df02c4950a3fceeab0dbf2"
-    // ...
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

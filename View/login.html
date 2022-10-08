@@ -22,10 +22,13 @@
 	<div class="login">
 	<h1>Iniciar Sesión</h1>
     <form method="post">
-    	<input type="text" name="u" placeholder="Nombre de Usuario" required="required" />
-        <input type="password" name="p" placeholder="Contraseña" required="required" />
-        <button type="submit" class="btn btn-primary btn-block btn-large">Iniciar Sesion</button>
+    	<input type="text" id="usuarioName" name="u" placeholder="Nombre de Usuario" required="required" />
+        <input type="password" id="usuarioPass" name="p" placeholder="Contraseña" required="required" />
+
     </form>
+
+	<button class="btn btn-primary btn-block btn-large" onclick="guardar()" hrfe="biblioteca.html">Iniciar Sesion</button>
+
     <div class="rmessage">
     <p>Aun no te registras en Music Project? hazlo </p><a color="#FF0000" href="registro.html">REGISTRATE!
 		<i class='bx bxs-registered'></i></a>
@@ -36,12 +39,5 @@
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-
-	<!--Importamos JavaScript-->
-	<script src="../Controller/app.js"></script>
-	
-<script>
-    login.js
-</script>
 </body>
 </html>

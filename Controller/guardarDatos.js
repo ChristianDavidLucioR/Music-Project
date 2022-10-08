@@ -1,7 +1,8 @@
-function guardas () {
+function guardar(){
+
     db.collection("Usuarios").add({
-        nombre: document.getElementById ("").value,
-        contraseña:document.getElementById ("").value,
+        nombre: document.getElementById ("usuarioName").value,
+        contraseña: document.getElementById ("usuarioPass").value,
         
     })
     .then((docRef) => {
